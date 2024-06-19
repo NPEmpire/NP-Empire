@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    background-color: #303030;
+}
+
+.barre-de-selection {
+    background-color: #383838;
+    border-radius: 35px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;    
+}
+
+.selcetion {
+    display: flex;
+    justify-content: center;
+}
+
+barre-de-selection {
+    #logo-barre-de-selection {
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .img-barre-de-selection {
+        max-height: 50px;
+        margin-left: 0px auto;
+    }
+    a {
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-family: Verdana;
+        margin: 25px;
+        font-size:large;
+    }
+    a:hover {
+        color: orangered;
+    } 
+}
+
+.premiere-partie {
+    display: flex;
+    justify-content: center;
+}
+
+#REJOIGNEZ-NP-EMPIRE{
+    margin: 80px;
+    p {
+        font-family: Verdana;
+        color: white;
+    }
+}
+
+page-de-mi-en-avant {
+    h4{
+        color: orangered;
+        font-family: Verdana;
+    }
+    h1 {
+        color: white;
+        font-style:oblique;
+        font-family: Verdana;
+        font-size: 60px;
+    }
+}
+
+.Enssemble-de-bouton {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+#bouton-telechargement {
+    background-color: orangered;
+    height: 57px;
+    width: 300px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    font-size: 8px;
+    font-family: Verdana;
+}
+
+bouton-pour-telechargement {
+    #téléchagement-windows {
+        color: white ;
+        background-color: rgb(50, 50, 255);
+        height: 60px;
+        width: 350px;
+        font-size: 8px;
+        text-align: center;
+        border-radius: 5px;
+        border: 7px;
+    }
+    
+    .img-windows {
+        max-height: 25px;
+    }
+    
+    #téléchargement-mac {
+        color: white ;
+        background-color: rgb(34, 34, 34);
+        height: 60px;
+        width: 350px;
+        font-size: 8px;
+        text-align: center;
+        border-radius: 5px;
+        border: 7px;
+        margin: 20px;
+        font-family: Verdana;
+    }
+    
+    .img-mac {
+        max-height: 35px;
+        margin: 9px;
+    }
+    
+    #téléchargement-linux {
+        color: rgb(0, 0, 0) ;
+        background-color: rgb(224, 224, 224);
+        height: 60px;   
+        width: 350px;
+        font-size: 8px;
+        text-align: center;
+        border-radius: 5px;
+        border: 7px;
+        font-family: Verdana;
+    }
+    
+    .img-linux {
+        max-height: 40px;
+        margin: 11px;
+    }
+    
+    .table {
+        margin: 0px auto;
+    }
+    
+}
+
+
+img {
+    object-fit: contain;
+    height:calc(325px);
+}
+
+selection-skin {
+    display: flex;
+    color:white;
+    font-family: Verdana;
+    justify-content: center;    
+    .body {
+        display: flex;
+        background-color: #383838;
+        width: 1350px;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    .img-skin {
+        height: 180px;
+    }
+}
+
+.img-fondateur {
+    display: flex;
+    justify-content: center;
+}
+
+.fondateur {
+    display: flex;
+    justify-content: center;
+}
+
+fondateur {
+    #Nanofly{
+        display: flex;
+        margin: 30px;
+        color: white;
+        background-color:#383838 ;
+        width: 550px;
+        font-family: verdana;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        .margin {
+            margin: 20px;
+        }
+    }
+    #DemonBlock{
+        display: flex;
+        margin: 30px;
+        color: white;
+        background-color:#383838 ;
+        width: 550px;
+        font-family: verdana;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        .margin {
+            margin: 20px;
+        }
+    }
+}
